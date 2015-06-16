@@ -36,7 +36,7 @@ func getFlags() (flags, error) {
 
 	u := flag.String("url", "http://localhost:8080", "server")
 
-	p := flag.String("path", "/home/ubuntu/file_server", "file folder")
+	p := flag.String("path", "/trove_files", "file folder")
 
 	flag.Parse()
 
